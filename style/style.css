@@ -110,6 +110,44 @@ body{
     font-size: 25px;
     color: rgb(9, 70, 9);
 }
-container{
-  background-color: rgb(23, 66, 23);
+.wrapper{
+  display: flex;
+  width: 70%;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(23, 66, 23);
+  padding: 23px;
+  /* margin-top: -300px; */
+  margin: -10rem.2rem;
+  background-color:beige ;
+  align-items: flex-end;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+  /* margin: .3rem; */
+ 
+
+}
+.card img{
+  height: 50%;
+  width: 90%;
+}
+.card:hover{
+  transform: translateY(20px);
+}
+.card:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;width: 50%;
+  height: 100%;
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+.card:hover::before{
+  opacity: 1;
+}
+
+
