@@ -100,8 +100,7 @@ body{
 .item {
         flex: auto;
         color: rgb(9, 70, 9);
-        margin: 10px;
-        
+        margin: 10px;    
     }
 .title{
     margin-top: -130px;
