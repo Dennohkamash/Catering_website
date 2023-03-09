@@ -118,15 +118,11 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: rgb(23, 66, 23);
   padding: 23px;
-  /* margin-top: -300px; */
   margin: -10rem.2rem;
   background-color:beige ;
   align-items: flex-end;
   transition: 0.5s ease-in-out;
   border-radius: 10px;
-  /* margin: .3rem; */
- 
-
 }
 .card img{
   height: 50%;
