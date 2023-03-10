@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-size: 100%;
     font-variant: small-caps;
+  
 }
 
 .pill-nav a {
@@ -113,20 +114,22 @@ body{
   display: flex;
   width: 70%;
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: rgb(23, 66, 23);
-  padding: 23px;
-  margin: -10rem.2rem;
+  padding: 20px;
+  margin: -15rem.2rem;
   background-color:beige ;
   align-items: flex-end;
   transition: 0.5s ease-in-out;
-  border-radius: 10px;
-
+  border-radius: 7px;
+  max-height: fit-content;
 }
 .card img{
   height: 50%;
-  width: 90%;
+  width: 100%;
+  position: center;
 }
 .card:hover{
   transform: translateY(20px);
